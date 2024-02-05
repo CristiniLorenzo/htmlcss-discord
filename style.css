@@ -24,7 +24,13 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
-
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 .row > * {
     padding: 0 10px;
 }
@@ -84,12 +90,9 @@ header .container .row{
 }
 .main-nav ul {
     display: flex;
-    list-style: none;
     justify-content: center;
 }
 .main-nav li a {
-    text-decoration: none;
-    color: #FFFFFF;
     padding: 18px;
 }
 .flex-end{
@@ -180,7 +183,7 @@ h2{
     text-align: center;
     padding-bottom: 100px;
 }
-.last-section .container .button{
+.last-section .container .button, .footer-bottom .container .button{
     background-color: #8EA1E1;
     color: #FFFFFF;
     padding: 15px 25px;
@@ -196,49 +199,38 @@ h2{
 
 footer{
     background-color: #23272A;
+    color: #FFFFFF;   
+}
+h3{
+    font-size: 40px;
+    color: #7289DA;
+    font-weight: 800;
+}
+h4{
+    color: #7289DA;
+}
+.footer-top{
+    padding-top: 15px;
     
 }
-
-.footer-section{
+.footer-top .container{
+    padding-top: 60px;
     border-bottom: 2px solid #C4C4C4;
 }
-
-.footer-container{
-    margin: 0 auto;
-    max-width: 1180px;
+li img{
+    height: 18px;
+}
+.col-30 ul li{
+    padding-bottom: 25px;
+}
+.col-25 ul li{
+    padding-bottom: 16px;
+}
+.footer-top .container .col-70{
     display: flex;
 }
-
-.first-footer{
-    padding-top: 15px;
-    padding-bottom: 40px;
-}
-
-.salmon{
-    width: 40%;
-    background-color: #F08080;
-    height: 600px;
-}
-
-.aqua{
-    width: 60%;
-    background-color: #20B2AA;
-    height: 600px;
-}
-
-.footer-column{
-    width: 25%;
-}
-
-.second-footer{
-    background-color: #76EAC3;
-    margin-top: 30px;
+.footer-bottom .container{
     justify-content: space-between;
-}
-
-.footer-logo , .footer-button{
     align-items: center;
-    background-color: #C78F99;
-    margin: 15px 0px;
-    padding: 6px;
+    padding-top: 15px;
 }
